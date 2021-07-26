@@ -1,8 +1,14 @@
-#!/bin/bash
-sudo su 
+echo Hello welcome, this script will install:
+echo update the system
+echo install snapd
+echo blender
+echo krita
+echo flatpack
+echo kdenlive
+echo brave
 sudo apt update -y 
 sudo apt upgrade -y 
-sudo apt install snapd
+sudo apt install snapd -y 
 sudo snap install blender --classic
 sudo snap install krita
 sudo apt install flatpak
